@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPanePrincipal" prefHeight="850.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appacademia.VistaPrincipalController">
+   <children>
+      <AnchorPane fx:id="inicioAnchorPane" layoutX="265.0" prefHeight="850.0" prefWidth="1250.0">
+         <children>
+            <ImageView fitHeight="741.0" fitWidth="1032.0" layoutX="213.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../RecursosMenu/Logo.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="850.0" prefWidth="250.0" style="-fx-background-color: #1D2026;">
+         <children>
+            <Pane layoutX="1.0" layoutY="24.0" prefHeight="129.0" prefWidth="265.0" style="-fx-background-color: #1D2026;">
+               <children>
+                  <Label alignment="CENTER" layoutY="-6.0" prefHeight="70.0" prefWidth="265.0" text="App Academia" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Hebrew" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutY="55.0" prefHeight="34.0" prefWidth="265.0" text="by Jannus Team" textFill="WHITE">
+                     <font>
+                        <Font name="Courier New" size="23.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <JFXButton alignment="CENTER" layoutY="220.0" onAction="#OnActionButtonInicioSeccion" prefHeight="79.0" prefWidth="265.0" text=" Inicio  " textFill="WHITE">
+               <font>
+                  <Font name="Arial Hebrew Bold" size="27.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../RecursosMenu/Menu.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="CENTER" layoutX="1.0" layoutY="300.0" onAction="#OnActionButtonCursoSeccion" prefHeight="79.0" prefWidth="265.0" text=" Cursos  " textFill="WHITE">
+               <font>
+                  <Font name="Arial Hebrew Bold" size="27.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../RecursosMenu/Cursos.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="CENTER" layoutY="372.0" onAction="#OnActionButtonMatriculaSeccion" prefHeight="79.0" prefWidth="265.0" text=" Matriculas   " textFill="WHITE">
+               <font>
+                  <Font name="Arial Hebrew Bold" size="27.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../RecursosMenu/Encuesta.png" />
+                     </image></ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="CENTER" layoutX="1.0" layoutY="451.0" onAction="#OnActionButtonAlumnoSeccion" prefHeight="79.0" prefWidth="265.0" text=" Alumnos   " textFill="WHITE">
+               <font>
+                  <Font name="Arial Hebrew Bold" size="27.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../RecursosMenu/Alumno.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="CENTER" layoutY="757.0" onAction="#OnActionButtonAboutSeccion" prefHeight="79.0" prefWidth="265.0" text=" About   " textFill="WHITE">
+               <font>
+                  <Font name="Arial Hebrew Bold" size="27.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../RecursosMenu/About.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="CENTER" layoutY="531.0" onAction="#OnActionButtonAyuda" prefHeight="79.0" prefWidth="265.0" text=" Ayuda" textFill="WHITE">
+               <font>
+                  <Font name="Arial Hebrew Bold" size="27.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../RecursosMenu/ayuda.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
