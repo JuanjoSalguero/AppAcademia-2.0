@@ -5,6 +5,7 @@ Created and designed using JavaFX.
 
 In this version of app academia, a WebView is implemented with the generic and contextual help of the application, in addition to new buttons that generate reports carried out with JasperSoftReports.
 
+
 How it looks:
 
 - Splash Screen
